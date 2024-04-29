@@ -9,4 +9,5 @@ public class pagos {
         this.cuantia = cuantia;
         this.fecha = fecha;
     }
+
 }

@@ -8,7 +8,7 @@ public class empresas {
     String email;
     String apellidoContacto;
     String nombreContacto;
-    ArrayList<pagos> pagos;
+    ArrayList<pagos> listaPagos;
 
     public empresas(String nombre , String idEmpresa , String telefono , String email , String apellidoContacto , String nombreContacto){
         this.nombre = nombre;
@@ -17,11 +17,11 @@ public class empresas {
         this.email = email;
         this.apellidoContacto = apellidoContacto;
         this.nombreContacto = nombreContacto;
-        this.pagos = new ArrayList<pagos>();
+        this.listaPagos = new ArrayList<pagos>();
     }
 
     public void añadir_pago(pagos pago){
-        this.pagos.add(pago);
+        this.listaPagos.add(pago);
     }
 
 }
