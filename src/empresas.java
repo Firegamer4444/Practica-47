@@ -19,4 +19,9 @@ public class empresas {
         this.nombreContacto = nombreContacto;
         this.pagos = new ArrayList<pagos>();
     }
+
+    public void añadir_pago(pagos pago){
+        this.pagos.add(pago);
+    }
+
 }
