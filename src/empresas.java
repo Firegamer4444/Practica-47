@@ -1,27 +1,19 @@
-import java.util.ArrayList;
 
-public class empresas {
 
-    String nombre;
+
+public class empresas  {
     String idEmpresa;
-    String telefono;
-    String email;
-    String apellidoContacto;
-    String nombreContacto;
-    ArrayList<pagos> listaPagos;
+    String nombreEmpresa;
+    String modeloCarta;
+    String numeroNulidad;
 
-    public empresas(String nombre , String idEmpresa , String telefono , String email , String apellidoContacto , String nombreContacto){
-        this.nombre = nombre;
+    public empresas(String idEmpresa , String nombreEmpresa , String modeloCarta , String numeroNulidad){
         this.idEmpresa = idEmpresa;
-        this.telefono = telefono;
-        this.email = email;
-        this.apellidoContacto = apellidoContacto;
-        this.nombreContacto = nombreContacto;
-        this.listaPagos = new ArrayList<pagos>();
+        this.nombreEmpresa = nombreEmpresa;
+        this.modeloCarta = modeloCarta;
+        this.numeroNulidad = numeroNulidad;
     }
 
-    public void añadir_pago(pagos pago){
-        this.listaPagos.add(pago);
-    }
 
+    
 }
