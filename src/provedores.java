@@ -5,16 +5,16 @@ public class provedores {
     String nombre;
     String idProvedor;
     String telefono;
-    String email;
+    String emailProvedor;
     String apellidoContacto;
     String nombreContacto;
     ArrayList<pagos> listaPagos;
 
-    public provedores(String nombre , String idProvedor , String telefono , String email , String apellidoContacto , String nombreContacto){
+    public provedores(String nombre , String idProvedor , String telefono , String emailProvedor , String apellidoContacto , String nombreContacto){
         this.nombre = nombre;
         this.idProvedor = idProvedor;
         this.telefono = telefono;
-        this.email = email;
+        this.emailProvedor = emailProvedor;
         this.apellidoContacto = apellidoContacto;
         this.nombreContacto = nombreContacto;
         this.listaPagos = new ArrayList<pagos>();
